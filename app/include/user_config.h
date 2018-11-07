@@ -73,7 +73,7 @@
 
 #define BUILD_SPIFFS
 //#define SPIFFS_FIXED_LOCATION        0x100000
-//#define SPIFFS_MAX_FILESYSTEM_SIZE    0x20000	
+//#define SPIFFS_MAX_FILESYSTEM_SIZE    0x20000
 //#define SPIFFS_SIZE_1M_BOUNDARY
 #define SPIFFS_CACHE 1          // Enable if you use you SPIFFS in R/W mode
 #define SPIFFS_MAX_OPEN_FILES 4 // maximum number of open files for SPIFFS
@@ -90,7 +90,7 @@
 // The SHA1 and MD5 function are implemented in the ROM BIOS. The MD2 and SHA2
 // are by firmware code, and can be enabled if you need this functionality.
 
-//#define CLIENT_SSL_ENABLE
+#define CLIENT_SSL_ENABLE
 //#define MD2_ENABLE
 #define SHA2_ENABLE
 #define SSL_BUFFER_SIZE 5120
@@ -118,10 +118,10 @@
 // management, using internal timer callbacks.  Whilst many Lua developers
 // prefer to implement equivalent features in Lua, others will prefer the
 // Wifi module to do this for them.  Uncomment the following to enable
-// this functionality.  See the relevant WiFi module documentation for 
+// this functionality.  See the relevant WiFi module documentation for
 // further details, as the scope of these changes is not obvious.
 
-//  Enable the wifi.startsmart() and wifi.stopsmart()  
+//  Enable the wifi.startsmart() and wifi.stopsmart()
 //#define WIFI_SMART_ENABLE
 
 //  Enable wifi.sta.config() event callbacks
